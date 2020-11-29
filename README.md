@@ -8,4 +8,5 @@ https://www.kaggle.com/atulanandjha/lfwpeople - colour images of people for test
 http://vision.ucsd.edu/~leekc/ExtYaleDatabase/ExtYaleB.html - main database 
 
 Face detection + features: HOG
+
 CLassifier: SVM
