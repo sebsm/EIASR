@@ -9,4 +9,4 @@ http://vision.ucsd.edu/~leekc/ExtYaleDatabase/ExtYaleB.html - main database
 
 Face detection + features: HOG
 
-CLassifier: SVM
+Classifier: SVM
