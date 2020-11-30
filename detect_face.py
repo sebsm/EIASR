@@ -61,8 +61,8 @@ svm.setC(2.67)
 svm.setGamma(5.383)
 svm.train(trainData, cv2.ml.ROW_SAMPLE, responses)
 svm.save('svm_data.dat')
-deskewed = [list(map(gray,row)) for row in test_cells]
-hogdata = [list(map(hog,row)) for row in deskewed]
+#deskewed = [list(map(gray,row)) for row in test_cells]
+hogdata = [list(map(hog,row)) for row in test_cells]
 testData = np.float32(hogdata).reshape(-1,bin_n*4)
 result = svm.predict(testData)[1]
 mask = result==responses
